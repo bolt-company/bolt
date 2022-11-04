@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.all-item-container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.face{
+    display: flex;
+    width: 30px;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #385185;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo-img{
+    width: 175px;
+    height: 50px;
+}
+
+.form-div{
+    height: 150px;
+    display: flex;
+    margin-top: 30px;
+}
+
+input{
+    outline: none;
+    width: 260px;
+    height: 36px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+
+button{
+    margin-top: 10px;
+    background-color: #0095f6;
+    color: white;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 3px;
+}
+
+h4{
+    font-family: "Roboto", sans-serif;
+    opacity: 50%;
+}
+
+.forgot{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.alt-container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 120px;
+    font-family: "Roboto", sans-serif;
+}
+
+.play-store, .microsoft{
+    width: 130px;
+    height: 40px;
+}
+
+h4{
+    display: flex;
+    font-size: 12px;
+}
+
+.signup{
+    color: #0095f6;
+    opacity: 100%;
+}
